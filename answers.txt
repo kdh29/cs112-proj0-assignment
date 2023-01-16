@@ -1,7 +1,70 @@
 
 Project 0
-Name:
-Username:
-Student Id:
+Name: Kyle Houston
+Username: kdh29
+Student Id:2603011
+1/14/23
 
 Step 3. -------------------------------------------
+#include <string>
+using namespace std;
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "Kyle Houston";
+    char last = 'H';
+    double pi = 3.1415;
+    bool fals = 0;
+    long nada = 0;
+    return 0;
+}
+step 4 --------------
+#include <string>
+#include <iostream>
+using namespace std;
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "Kyle Houston";
+    char last = 'H';
+    double pi = 3.1415;
+    bool fals = 0;
+    long nada = 0;
+    cout << &BIG_NUMBER << endl;
+    cout << &name << endl;
+    cout << &last << endl;
+    cout << &pi << endl;
+    cout << &fals << endl;
+    cout << &nada << endl;
+    return 0;
+}
+0x7ffe303155bc
+0x7ffe303155d0
+H
+0x7ffe303155c0
+0x7ffe303155bb
+0x7ffe303155c8
+
+step 5 ---------------
+#include <string>
+#include <iostream>
+using namespace std;
+int main() {
+    int threeseven = 37;
+    cout << oct << threeseven << endl;
+    cout << hex << threeseven << endl;
+    cout << dec <<threeseven << endl;
+    
+    return 0;
+}
+45
+25
+37
+step 6 -----------------------------
+#include <string>
+#include <iostream>
+using namespace std;
+int main() {
+    float a_ray[20] = {1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,1.0,2.0};
+    cout <<  sizeof(a_ray) << endl;
+    return 0;
+}
+80
